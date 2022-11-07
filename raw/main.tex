@@ -1,0 +1,52 @@
+\documentclass[12pt, a4paper]{article}
+% \usepackage[utf8]{inputenc}
+\setlength{\parindent}{0pt}
+\usepackage[dvips]{geometry}
+% \usepackage[free-standing-units=true]{siunitx}
+\usepackage{siunitx} % package for the units
+\usepackage{graphicx} % package to manage images
+\graphicspath{{./images/}}
+\usepackage{amssymb}
+\usepackage{subfig}
+\geometry{a4paper,left=2cm,right=2cm, top=2cm, bottom=2cm}
+\usepackage[version=4]{mhchem} % package for chemical equations
+\usepackage{multirow} % merged rows in tables
+\usepackage[style=numeric]{biblatex}
+
+\addbibresource{refs.bib}
+
+\begin{document}
+
+\input{title_page_matura}
+
+% \input{title_page_ib}
+
+\newpage
+
+\tableofcontents
+
+\newpage
+\input{chap_abstract}
+\newpage
+\input{chap_introduction}
+\newpage
+\input{chap_theory}
+\newpage
+\input{chap_methods}
+\newpage
+\input{chap_safety}
+\newpage
+\input{chap_results}
+\newpage
+\input{chap_discussion}
+\newpage
+\input{chap_conclusion}
+\newpage
+
+\section{Bibliography}
+\printbibliography
+
+\subsection{Figures And Tables}
+Figs. \ref{fig:smartphonesales} to \ref{fig:dischargecurves}: Created by the author.\\
+Tables \ref{table:parameterscathode} to \ref{table:results}: Created by the author.
+\end{document}
