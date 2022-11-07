@@ -19,3 +19,6 @@ An example battery bar-chart with the data supplied:
 ![batteryfig](https://user-images.githubusercontent.com/108400115/200205394-3990d5d1-3765-488c-b6f1-0812d75a7612.png)
 An example phone sale bar-chart with the data supplied:
 ![phonesales](https://user-images.githubusercontent.com/108400115/200205397-04f1b62c-62c5-4873-a743-db43a1e44c93.png)
+
+## Latex
+Additionally, a LaTex raw version of the paper can be found in the `raw` directory. It includes all the `.tex` files, as well as the figures and `.bib` files used.
