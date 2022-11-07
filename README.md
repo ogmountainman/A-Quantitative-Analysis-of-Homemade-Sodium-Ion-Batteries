@@ -22,3 +22,6 @@ An example phone sale bar-chart with the data supplied:
 
 ## Latex
 Additionally, a LaTex raw version of the paper can be found in the `raw` directory. It includes all the `.tex` files, as well as the figures and `.bib` files used.
+
+## Data
+The raw data used to create the plots can be found in the `graph_data.xlsx`. The further processed data, capacity and power calculations can be found in the `data_analysis.xlsx`.
